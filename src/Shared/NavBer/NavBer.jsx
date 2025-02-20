@@ -12,7 +12,7 @@ const NavBer = () => {
         <NavLink to={'allScholarship'}><li>All Scholarship</li></NavLink>
         <NavLink to={'about'}><li>About</li></NavLink>
         {user &&
-            <NavLink to={'blog'}><li>Blog</li></NavLink>
+            <NavLink to={'dashboard'}><li>Blog</li></NavLink>
         }
     </>
     const handleLogout = () => {
